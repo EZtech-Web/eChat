@@ -1,2 +1,2 @@
 # eChat
-eChat | QR-WEB
+eChat | WEB-QR
