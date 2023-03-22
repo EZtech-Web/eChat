@@ -14,26 +14,52 @@
         "warningColor": "#FFE161",
         "dangerColor": "#ff9966",
         "mainFont": "Jost",
-        "display1Font": "Jost",
+        "display1Font": "Philosopher",
         "display1Size": 4.6,
-        "display2Font": "Jost",
+        "display2Font": "Yeseva One",
         "display2Size": 3,
-        "display5Font": "Jost",
+        "display5Font": "Alegreya",
         "display5Size": 2,
-        "display7Font": "Jost",
+        "display7Font": "Signika",
         "display7Size": 1.2,
-        "display4Font": "Jost",
+        "display4Font": "Calistoga",
         "display4Size": 1.1,
-        "isRoundedButtons": false,
+        "isRoundedButtons": true,
         "isGhostButtonBorder": false,
         "underlinedLinks": false,
-        "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
       }
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "5.8.4",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Philosopher', sans-serif",
+        "name": "Philosopher",
+        "url": "https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i"
+      },
+      {
+        "css": "'Yeseva One', display",
+        "name": "Yeseva One",
+        "url": "https://fonts.googleapis.com/css?family=Yeseva+One:400"
+      },
+      {
+        "css": "'Alegreya', serif",
+        "name": "Alegreya",
+        "url": "https://fonts.googleapis.com/css?family=Alegreya:400,500,600,700,800,900,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Signika', sans-serif",
+        "name": "Signika",
+        "url": "https://fonts.googleapis.com/css?family=Signika:300,400,500,600,700"
+      },
+      {
+        "css": "'Calistoga', display",
+        "name": "Calistoga",
+        "url": "https://fonts.googleapis.com/css?family=Calistoga:400"
+      }
+    ],
     "imageResize": false,
     "favicon": "@PROJECT_PATH@/assets/images/echat.ico",
     "robotsSwitcher": true,
@@ -43,14 +69,15 @@
     "sitemapSwitcherAuto": "on",
     "witsec-language": "vi",
     "witsec-jquery": "3.6.0",
-    "mbrsiteDomain": false,
+    "mbrsiteDomain": "unz95kfbka",
     "usedWebp": false,
     "cookiesAlert": false,
     "gdpr": false,
     "witsec-white-label": true,
     "witsec-mailform": false,
     "uniqCompNum": 0,
-    "versionPublish": "5.8.4"
+    "versionPublish": "5.8.4",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
